@@ -6,4 +6,5 @@ def main(numbers):
     Returns:
         list: return answer.
     """
-    return
+    return  numbers[::2] #list(map(lambda x :x if numbers.index(x)%2==0 else ,numbers))
+print(main([1,2,3,4,5,6,7]))
